@@ -1,0 +1,80 @@
+.heading{
+    background-color: thistle;
+    margin: 0px;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.todo input{
+    width: 800px;
+    font-size: larger;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.todo button{
+    padding: 20px;
+    margin: 20px;
+    width:100px;
+    height: 60px;
+    border-radius: 10px;
+    font-style:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(104, 83, 182);
+}
+.todo input::placeholder {
+    color: black;
+    font-size: 1.3rem;
+}
+
+.todo input:focus {
+    outline: none;
+    border: 4px solid black;
+    background-color: rgb(221, 218, 218);
+}
+
+.todo-list  {
+    margin-top: 30px;
+    font-size: large;
+    align-items: center;
+}
+  
+.todo-list ul li {
+    font-size: large;
+    list-style: none;
+    width: 1000px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(170, 255, 248, 0.6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.delete {
+    margin-top: 5px;
+    float: right;
+    padding: 4px 10px 4px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+  }
+  
+.completed {
+    margin-top: 5px;
+    float: right;
+    padding: 4px 10px 4px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    margin-left: 10px;
+    color: white;
+  }
+
+.cross-Text {
+    text-decoration:line-through;
+    color: black;
+  }
